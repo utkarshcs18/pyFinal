@@ -1,8 +1,9 @@
 d = {}
 
-for key in range(1,5):
+for i in range(1,5):
+    name = input("Enter your Name: ")
     a = input("Enter your Language: ")
-    d[key] = a
+    d[name] = a
 
 
 print(d)
