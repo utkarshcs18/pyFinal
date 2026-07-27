@@ -16,8 +16,8 @@ Level 2: Control Flow (If-Else & Loops)
 
 Level 3: Data Structures (Lists, Tuples, Dicts, Sets)
 1.List Operations: Given a list nums = [2, 4, 6, 8, 4, 2, 10], write a program to:
-2.Remove duplicates.
-3.Find the largest and smallest number without using max() or min().
-4.Dictionary Mapping: Create a dictionary where keys are numbers from 1 to 10 and values are their squares.
-5.Word Frequency: Take a sentence as input and count the frequency of each word using a dictionary.
-6.List Comprehension: Create a list of all even numbers between 1 and 100 that are also divisible by 7 using a single line of code.
+.Remove duplicates.
+.Find the largest and smallest number without using max() or min().
+2.Dictionary Mapping: Create a dictionary where keys are numbers from 1 to 10 and values are their squares.
+3.Word Frequency: Take a sentence as input and count the frequency of each word using a dictionary.
+4.List Comprehension: Create a list of all even numbers between 1 and 100 that are also divisible by 7 using a single line of code.
