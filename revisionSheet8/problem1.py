@@ -6,8 +6,8 @@ def greatest(a,b,c):
     else:
         print("c is greatest")
 
-a = int(input("Enter youere 1st Number: "))
-b = int(input("Enter youere 1st Number: "))
-c = int(input("Enter youere 1st Number: "))
+a = int(input("Enter your 1st Number: "))
+b = int(input("Enter your 1st Number: "))
+c = int(input("Enter your 1st Number: "))
 
 greatest(a,b,c)
