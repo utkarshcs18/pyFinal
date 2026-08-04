@@ -116,7 +116,7 @@ class GuessGame(tk.Tk):
 
         if guess == self.target:
             self.feedback_label.config(
-                text=f"🎉 CORRECT! IN {self.attempts} TRIES!", fg=SUCCESS)
+                text=f"🎉 Climax reached! IN {self.attempts} TRIES!", fg=SUCCESS)
             self.display_label.config(fg=SUCCESS)
             self.entry.config(state="disabled")
             self.guess_btn.config(state="disabled")
@@ -124,10 +124,10 @@ class GuessGame(tk.Tk):
             return
 
         elif guess < self.target:
-            self.feedback_label.config(text="↑ TOO LOW — GO HIGHER", fg=ACCENT)
+            self.feedback_label.config(text="↑ Take me Higher", fg=ACCENT)
             self.low_bound = max(self.low_bound, guess + 1)
         else:
-            self.feedback_label.config(text="↓ TOO HIGH — GO LOWER", fg=ACCENT2)
+            self.feedback_label.config(text="↓ Go down on Me", fg=ACCENT2)
             self.high_bound = min(self.high_bound, guess - 1)
 
         self.bounds_label.config(text=f"Range: {self.low_bound} - {self.high_bound}")
